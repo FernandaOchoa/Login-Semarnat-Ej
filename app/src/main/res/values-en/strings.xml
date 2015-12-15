@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejemplo de Intent</string>
+
+    <string name="Hola">Hola A Todos :D</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="enviar">Entrar</string>
+    <string name="pass">Password</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_segunda">Ejemplo</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.monsh.pasoparametros.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:layout_weight=".35"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back" />
+    <!--
+        <TextView
+            android:id="@+id/tv_hola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20"
+            android:text="@string/Hola"
+            android:gravity="center"
+            android:textColor="@color/azul03"
+            android:textSize="@dimen/xxlarge"
+            android:textStyle="bold" />
+    -->
+    <EditText
+        android:id="@+id/edt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/azul03"
+        android:textSize="@dimen/xlarge" />
+
+    <EditText
+        android:id="@+id/edt_correo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/azul03"
+        android:textSize="@dimen/xlarge" />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:textColorHint="@color/azul03"
+        android:textSize="@dimen/xlarge" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".20"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/large"
+        android:text="@string/enviar"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/xlarge"
+        android:textStyle="bold" />
+
+</LinearLayout>

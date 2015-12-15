@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LayoutTheme" parent="Theme.AppCompat.Light">
+
+        <!--Main the colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.EditText" parent="Theme.AppCompat.Light">
+
+        <!--Style for EditText -->
+        <item name="android:textSize">@dimen/xlarge</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/small</item>
+        <item name="android:layout_weight">.25</item>
+    </style>
+
+</resources>
